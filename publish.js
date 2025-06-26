@@ -13,7 +13,7 @@ const PUBLISHING_PUBLIC_KEY = process.env.PUBLISHING_PUBLIC_KEY;
 const arc = new Arc({
   apiKey: process.env.ARC_API_KEY,
   authToken: process.env.ARC_AUTH_TOKEN,
-  batchSize: process.env.BATCH_SIZE || 1000, // default to 150 if not set
+  batchSize: process.env.BATCH_SIZE || 150, // default to 150 if not set
 });
 
 /**
